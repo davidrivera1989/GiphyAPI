@@ -1,0 +1,54 @@
+<!-- INSTRUCTIONS: 
+Your app should take the topics in this array and create buttons in your HTML.
+Try using a loop that appends a button for each string in the array.
+When the user clicks on a button, the page should grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
+When the user clicks one of the still GIPHY images, the gif should animate. If the user clicks the gif again, it should stop playing.
+Under every gif, display its rating (PG, G, so on).
+Only once you get images displaying with button presses should you move on to the next step.
+Add a form to your page takes the value from a user input box and adds it into your topics array. 
+Then make a function call that takes each topic in the array remakes the buttons on the page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Favorite Disney GIF's</title>
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<div id = container>
+		<h1>Disney GIF Search</h1>
+
+	<!-- buttons go here -->	
+	<div id = "buttonlocation"></div>
+
+	<!-- <button data-name="ariel">ariel</button> -->
+
+
+	<form id ="inputCharacter">
+		<label for = "addCast">Add A Disney Character!</label>
+		<input type="text" id="addCast">
+
+		<!-- Button triggers new cast to be added -->
+		<input type="submit" id = "addButton" value="submit">
+
+	</form>
+
+	<!-- gif's go here -->
+	<div id = "gif-view"></div>
+
+
+	<script type="text/javascript" src= "logic.js"></script>
+
+	</div>
+
+</body>
+
+</html>
