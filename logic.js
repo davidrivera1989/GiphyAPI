@@ -7,7 +7,7 @@
     function displaySportsInfo(event) {
       var sport = event.target.attributes[1].value;
 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=7";
+        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=dc6zaTOxFJmzC&limit=5";
 
         $.ajax({
             url: queryURL,

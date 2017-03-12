@@ -1,21 +1,26 @@
 body{
-	background: url("");
-	background-color: red;
+	background: url("sports11.jpg");
+
 }
 .Container{
 	text-align: center;
 	
 }
-#Sport-form{
-	
-}
+/*sport Buttons*/
 .sport{
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+/*Submit Button*/
 #add-Sports{
-	display: block;
+	margin-left: 223px;
+	padding: 5px
 
 }
+p{
+	font-size: 30px;
+	color: yellow;
+}
+
