@@ -1,13 +1,21 @@
 body{
 	background: url("");
+	background-color: red;
 }
 .Container{
 	text-align: center;
+	
 }
 #Sport-form{
 	
 }
+.sport{
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 #add-Sports{
-	
+	display: block;
 
 }
