@@ -1,5 +1,5 @@
 body{
-	background: url("sports11.jpg");
+	background: black;
 
 }
 .Container{
@@ -12,6 +12,8 @@ body{
 	margin-left: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	font-size: 30PX;
+
 }
 /*Submit Button*/
 #add-Sports{
@@ -22,5 +24,12 @@ body{
 p{
 	font-size: 30px;
 	color: yellow;
+}
+h1{
+	font-size: 90px;
+	color: #6be80c;
+}
+h3{
+	color: #0ce8e1;
 }
 
