@@ -21,10 +21,12 @@ body{
 	padding: 5px
 
 }
+/*Rating font*/
 p{
 	font-size: 30px;
 	color: yellow;
 }
+
 h1{
 	font-size: 90px;
 	color: #6be80c;

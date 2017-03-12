@@ -1,7 +1,7 @@
   $(document).ready(function(){
 
     // This variable called topics holds my Array.
-     var topics = ["Baseball", "Football", "Basketball", "Soccer", "Hockey"];
+     var topics = ["Baseball", "Football", "Basketball", "Soccer", "Hockey", "Boxing"];
 
     // Here im calling a request to the giphy API to get access to the images.
     function displaySportsInfo(event) {
